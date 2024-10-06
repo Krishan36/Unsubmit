@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "KPI Scorecard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "87d7e26d-790e-4c23-947e-639c9221a09f"
+  }
+}

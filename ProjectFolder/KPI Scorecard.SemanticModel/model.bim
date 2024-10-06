@@ -1,0 +1,4611 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.136.1202.0 (24.09)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"KPIs\",\"Correct Name\",\"RAG Order\"]"
+      }
+    ],
+    "culture": "en-GB",
+    "cultures": [
+      {
+        "name": "en-GB",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "RAG_order": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RAG Order"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "RAG order": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "order": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "rag instruction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "rag direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "rag edict": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "instruction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "edict": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "rag command": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "rag directive": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "rag demand": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "rag mandate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  }
+                ]
+              },
+              "RAG_order.index": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RAG Order",
+                    "ConceptualProperty": "Index"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "index": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "directory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "catalogue": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "catalog": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "guide": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "file": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "key": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "manifestation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "pointer": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "indication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "indicator": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "RAG_order.rag": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "RAG Order",
+                    "ConceptualProperty": "RAG"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rag": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "cloth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "duster": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "scrap": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "wisp": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "tatter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "thread": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "KP is": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "KPIs": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.ID": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "ID"
+                  }
+                },
+                "NameType": "Identifier",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ID": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "identification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "identity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "credential": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    ".": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.RAG_logic": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "RAG Logic"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "RAG logic": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "logic": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "rag judgement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "rag judgment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "rag lucidity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "rag rationality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "rag sensibleness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "rag soundness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "judgement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "judgment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "lucidity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "rationality": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.benchmark": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Benchmark"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "benchmark": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "yardstick": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "standard": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "level": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "scale": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.benchmark_formatted": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Target"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "target": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "focus": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "goal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "objective": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.category": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Category"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "category": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "classification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "class": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "type": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "grouping": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "kind": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.difference_against_benchmark": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Difference against benchmark"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "difference against benchmark": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "alteration against benchmark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "variance against benchmark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "modification against benchmark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "transformation against benchmark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "metamorphosis against benchmark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "change against benchmark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "dissimilarity against benchmark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "disparity against benchmark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "distinction against benchmark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "differentiation against benchmark": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.difference_against_benchmark_formatted": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Difference"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "difference": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "alteration": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "variance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "modification": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "transformation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "metamorphosis": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "change": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "dissimilarity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "disparity": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "distinction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "differentiation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.difference_format": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Difference Format"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "difference format": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "format": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "difference arrangement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "difference setup": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "difference presentation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "difference organization": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "difference layout": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "difference system": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "arrangement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "setup": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "presentation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "organization": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.kpi": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "KPI"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "kpi": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    ".": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.last_update_date": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Last Update Date"
+                  }
+                },
+                "SemanticType": "Time",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "last update date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Weight": 0.7
+                    }
+                  },
+                  {
+                    "update date": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "last update moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "update moment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "last update period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "update period": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "end update date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "final update date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "closing update date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "concluding update date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "finishing update date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "former update date": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.measure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "KPI Colour"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "KPI colour": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "colour": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.money_target": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Money Target"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "money target": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "money focus": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "money goal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "money objective": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "Target": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.money_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Money Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "money value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "money assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "money worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "money price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "money cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "money charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "money rate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "money importance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "money significance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "money usefulness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "money consequence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "Actual": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.name": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Name"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tag": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.note": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Notes"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "note": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "memo": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "memorandum": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "reminder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "letter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "message": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "communication": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "annotation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "addendum": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "commentary": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "footnote": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.number_target": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Number Target"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "number target": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "number focus": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "number goal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "number objective": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "no target": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "Target": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.number_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Number Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "number value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "no value": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "number assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "number worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "number price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "number cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "number charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "number rate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "number importance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "number significance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "number usefulness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "Actual": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.owner": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Owner"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "owner": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ownership": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "holder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "landlord": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "possessor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "proprietor": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "shareholder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  },
+                  {
+                    "titleholder": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.736
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.percentage_target": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Percentage Target"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "percentage target": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage focus": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "percentage goal": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "percentage objective": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "Target": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.percentage_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Percentage Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "percentage value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "percentage assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "percentage worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "percentage price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "percentage cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "percentage charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "percentage rate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.485
+                    }
+                  },
+                  {
+                    "percentage importance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "percentage significance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "percentage usefulness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "percentage consequence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "Actual": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.rag": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "RAG"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "rag": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "cloth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "duster": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "scrap": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "wisp": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "tatter": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "thread": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    ".": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "..": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ],
+                "Visibility": {
+                  "Value": "Hidden"
+                }
+              },
+              "strategic_KPIs.reporting_period": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Reporting Period"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "reporting period": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "period": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "reporting era": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "reporting epoch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.475
+                    }
+                  },
+                  {
+                    "era": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "epoch": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "reporting age": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "reporting stage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "reporting phase": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.461
+                    }
+                  },
+                  {
+                    "age": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "stage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  },
+                  {
+                    "phase": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.452
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.type_of_KPI": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Type of KPI"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "type of KPI": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "category of kpi": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "genre of kpi": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "manner of kpi": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "variety of kpi": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.762
+                    }
+                  },
+                  {
+                    "brand of kpi": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "class of kpi": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "kind of kpi": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "style of kpi": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "form of kpi": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  },
+                  {
+                    "grouping of kpi": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.739
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.v_1_Heading_1_heading": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "_1 Heading"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_1 heading": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_1 header": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "_1 slogan": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "_1 legend": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "_1 title": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "_1 caption": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "_1 headline": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "_1 banner": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.492
+                    }
+                  },
+                  {
+                    "_1 direction": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "_1 trajectory": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.482
+                    }
+                  },
+                  {
+                    "_1 bearing": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.468
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.v_1_Page_Titles_1_page_titles": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "_1 Page Titles"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_1 page titles": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "_1 page designation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.514
+                    }
+                  },
+                  {
+                    "_1 page name": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "_1 page heading": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "_1 page label": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499
+                    }
+                  },
+                  {
+                    "_1 page championship": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.489
+                    }
+                  },
+                  {
+                    "_1 page trophy": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.489
+                    }
+                  },
+                  {
+                    "_1 page cup": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.474
+                    }
+                  },
+                  {
+                    "_1 page award": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.474
+                    }
+                  },
+                  {
+                    "_1 page ownership": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.464
+                    }
+                  },
+                  {
+                    "_1 page entitlement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.464
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.v_1_Tagline_1_tagline": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "_1 Tagline"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "_1 tagline": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "value": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "assessment": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "worth": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "price": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "cost": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "charge": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "rate": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "importance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "significance": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "usefulness": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  },
+                  {
+                    "consequence": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.466
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.value_format": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Value Format"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "value format": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "format": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "value arrangement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "value setup": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "value presentation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "value organization": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "value layout": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "value system": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "arrangement": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "setup": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "presentation": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "organization": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  }
+                ]
+              },
+              "strategic_KPIs.value_formatted": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "KPIs",
+                    "ConceptualProperty": "Actual"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "actual": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "real": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "existent": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  },
+                  {
+                    "tangible": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.714
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "RAG_order_has_index": {
+                "Binding": {
+                  "ConceptualEntity": "RAG Order"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "RAG_order.index"
+                      },
+                      "Subject": {
+                        "Role": "RAG_order"
+                      }
+                    },
+                    "ID": "RAG_orders_have_indices",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "RAG_order": {
+                    "Target": {
+                      "Entity": "RAG_order"
+                    }
+                  },
+                  "RAG_order.index": {
+                    "Target": {
+                      "Entity": "RAG_order.index"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "RAG_order_has_rag": {
+                "Binding": {
+                  "ConceptualEntity": "RAG Order"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "RAG_order.rag"
+                      },
+                      "Subject": {
+                        "Role": "RAG_order"
+                      }
+                    },
+                    "ID": "RAG_orders_have_rags",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "RAG_order": {
+                    "Target": {
+                      "Entity": "RAG_order"
+                    }
+                  },
+                  "RAG_order.rag": {
+                    "Target": {
+                      "Entity": "RAG_order.rag"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_ID": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.ID"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_ID",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "ID_are_names_IDs_of_KP_ises",
+                    "Name": {
+                      "Name": {
+                        "Role": "strategic_KPIs.ID"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.ID": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.ID"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_RAG_logic": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.RAG_logic"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_RAG_logics",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.RAG_logic": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.RAG_logic"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_RAG_order": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "RAG_order"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_RAG_orders",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs"
+                      },
+                      "Subject": {
+                        "Role": "RAG_order"
+                      }
+                    },
+                    "ID": "RAG_orders_have_KP_ises",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "RAG_order": {
+                    "Target": {
+                      "Entity": "RAG_order"
+                    }
+                  },
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_benchmark": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.benchmark"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_benchmarks",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.benchmark": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.benchmark"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_benchmark_formatted": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.benchmark_formatted"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_target",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.benchmark_formatted": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.benchmark_formatted"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_category": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.category"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_categories",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.category": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.category"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_difference_against_benchmark": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.difference_against_benchmark"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_difference_against_benchmark",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.difference_against_benchmark": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.difference_against_benchmark"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_difference_against_benchmark_formatted": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.difference_against_benchmark_formatted"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_difference",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.difference_against_benchmark_formatted": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.difference_against_benchmark_formatted"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_difference_format": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.difference_format"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_difference_formats",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.difference_format": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.difference_format"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_kpi": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.kpi"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_kpis",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.kpi": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.kpi"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_last_update_date": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.last_update_date"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_last_update_dates",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.last_update_date": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.last_update_date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_measure": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.measure"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_KPI_colour",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.measure": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.measure"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_money_target": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.money_target"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_money_target",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.money_target": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.money_target"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_money_value": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.money_value"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_money_value",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.money_value": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.money_value"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_name": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.name"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_names",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.name": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.name"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_note": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.note"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_notes",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.note": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.note"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_number_target": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.number_target"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_number_target",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.number_target": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.number_target"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_number_value": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.number_value"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_number_value",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.number_value": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.number_value"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_owner": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.owner"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_owners",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "ID": "owners_own_KP_ises",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "strategic_KPIs"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs.owner"
+                      },
+                      "Verbs": [
+                        {
+                          "own": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.75
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs.owner"
+                      }
+                    },
+                    "ID": "owners_have_KP_ises",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.owner": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.owner"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_percentage_target": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.percentage_target"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_percentage_target",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.percentage_target": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.percentage_target"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_percentage_value": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.percentage_value"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_percentage_value",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.percentage_value": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.percentage_value"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_reporting_period": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.reporting_period"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_reporting_periods",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.reporting_period": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.reporting_period"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_type_of_KPI": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.type_of_KPI"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_type_of_KPI",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "DynamicAdjective": {
+                      "Adjective": {
+                        "Role": "strategic_KPIs.type_of_KPI"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "type_of_KPI_describe_KP_ises",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.type_of_KPI": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.type_of_KPI"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_v_1_Heading_1_heading": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.v_1_Heading_1_heading"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have__1_heading",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.v_1_Heading_1_heading": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.v_1_Heading_1_heading"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_v_1_Page_Titles_1_page_titles": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.v_1_Page_Titles_1_page_titles"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have__1_page_titles",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.v_1_Page_Titles_1_page_titles": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.v_1_Page_Titles_1_page_titles"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_v_1_Tagline_1_tagline": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.v_1_Tagline_1_tagline"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have__1_tagline",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.v_1_Tagline_1_tagline": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.v_1_Tagline_1_tagline"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_value": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.value"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_values",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.value": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.value"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_value_format": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.value_format"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_value_formats",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.value_format": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.value_format"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_has_value_formatted": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "strategic_KPIs.value_formatted"
+                      },
+                      "Subject": {
+                        "Role": "strategic_KPIs"
+                      }
+                    },
+                    "ID": "KP_ises_have_actual",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.value_formatted": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.value_formatted"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "strategic_KPIs_is_updated_on_last_update_date": {
+                "Binding": {
+                  "ConceptualEntity": "KPIs"
+                },
+                "Phrasings": [
+                  {
+                    "ID": "KP_ises_are_updated_on_last_update_dates",
+                    "State": "Generated",
+                    "Verb": {
+                      "Object": {
+                        "Role": "strategic_KPIs"
+                      },
+                      "Verbs": [
+                        {
+                          "update": {
+                            "State": "Generated"
+                          }
+                        }
+                      ]
+                    },
+                    "Weight": 0.9
+                  }
+                ],
+                "Roles": {
+                  "strategic_KPIs": {
+                    "Target": {
+                      "Entity": "strategic_KPIs"
+                    }
+                  },
+                  "strategic_KPIs.last_update_date": {
+                    "Target": {
+                      "Entity": "strategic_KPIs.last_update_date"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "When": {
+                    "Role": "strategic_KPIs.last_update_date"
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.5.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Correct Name",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"fZHPbsIwDMZfxeppE90L7DZN3aUSRc3QDoiDSV2IlDqoSTd4e5KS/tkGXKzo8+/7bMWbTSJcVxE70UlJ1iZpIuAFogiDuk0nEJ2yNUqnDAd6IGcyPC2FSEFkvqw++1pm4rlPeTfN8cu0uvLe8NbUO0p09AolWQemhisQ8A/FyFKhfvPJ3+RNo6LPcBXHbZdds6PWwjhond+ass4Hh40kTxuxU9zhw508FIP/wX+jvZmwlYeczY+mak/xfwcdFjC2IDvJA7JngjNj3GlqfFK0wEwJQHGkth+Nerpdced2M/hXcODnudsL\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"Raw Name\" = _t, Name = _t]),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Raw Name\", type text}, {\"Name\", type text}})",
+          "in",
+          "    #\"Changed Type\""
+        ],
+        "kind": "m",
+        "lineageTag": "f73488bb-6aa3-4439-8d3c-05342f888e96"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "AutoDetected_07596d40-1feb-4320-a0d0-94c4f9c6bb32",
+        "fromColumn": "RAG",
+        "fromTable": "KPIs",
+        "toColumn": "RAG",
+        "toTable": "RAG Order"
+      }
+    ],
+    "sourceQueryCulture": "en-GB",
+    "tables": [
+      {
+        "name": "KPIs",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Exception"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "68640a97-537e-47f4-a289-22b6e751ad45",
+            "sourceColumn": "Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "KPI",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f8882b8b-553f-413e-9f7f-1480db009bcb",
+            "sourceColumn": "KPI",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5964ffbd-d561-432c-8f17-a5daa3d26c27",
+            "sourceColumn": "Category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Owner",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a4390a60-bfad-418e-b1d9-45040b880aff",
+            "sourceColumn": "Owner",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "b1d21bad-20bc-400d-989c-e9ac7f3e4a9c",
+            "sourceColumn": "Value",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Benchmark",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "6684f18a-e0e2-4ebf-bb80-0ceccd1da44f",
+            "sourceColumn": "Benchmark",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Difference against benchmark",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "f2265294-4e7e-4b8b-8ef4-7a582ab18b9c",
+            "sourceColumn": "Difference against benchmark",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RAG",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "79653bc0-8ce5-4bf9-9be4-dd72111f3483",
+            "sourceColumn": "RAG",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Last Update Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "lineageTag": "49782ed3-42b6-4a06-af80-249fd6286934",
+            "sourceColumn": "Last Update Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Reporting Period",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a24dcb18-d5b2-4b86-952d-b3db7a5391cd",
+            "sourceColumn": "Reporting Period",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Notes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6ef38ecc-8207-429e-bc49-9212d5afc677",
+            "sourceColumn": "Notes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RAG Logic",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "77e9ccc9-fed6-4d42-b8c9-dfc0d4504b75",
+            "sourceColumn": "RAG Logic",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Value Format",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f35d99c2-1126-4d98-90ca-08cae505dd6a",
+            "sourceColumn": "Value Format",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Difference Format",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a3d4ad0c-423a-4dc9-93a0-0ed0c637cfb4",
+            "sourceColumn": "Difference Format",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Type of KPI",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "15868af8-7397-4b73-a37c-d4d756bdf16f",
+            "sourceColumn": "Type of KPI",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "351c3582-0cd6-4c10-9f29-95b2d9a7b356",
+            "sourceColumn": "ID",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "92d37e11-8dc9-457a-b202-6ba92dcb686b",
+        "measures": [
+          {
+            "name": "Actual",
+            "expression": "FORMAT(SELECTEDVALUE('KPIs'[Value]), SELECTEDVALUE('KPIs'[Value Format]))",
+            "lineageTag": "724e8aa3-7ad7-49f3-9f17-db6851d5346b"
+          },
+          {
+            "name": "Target",
+            "expression": "FORMAT(SELECTEDVALUE('KPIs'[Benchmark]), SELECTEDVALUE('KPIs'[Value Format]))",
+            "lineageTag": "ddcb0b88-1774-488d-8ec3-66beadd5a7ca"
+          },
+          {
+            "name": "Difference",
+            "expression": "FORMAT(SELECTEDVALUE('KPIs'[Difference against benchmark]), SELECTEDVALUE('KPIs'[Difference Format]))",
+            "lineageTag": "43375a48-c2bb-4295-9187-d8eb37a0c1fa"
+          },
+          {
+            "name": "KPI Colour",
+            "expression": [
+              "",
+              "SWITCH(SELECTEDVALUE(KPIs[RAG]),",
+              "\"R\", \"#ed1a37\",",
+              "\"A\", \"#fdab05\",",
+              "\"G\", \"#009383\")"
+            ],
+            "lineageTag": "5762f312-8d90-45d1-8dee-423b1e08fa52"
+          },
+          {
+            "name": "_1 Tagline",
+            "expression": [
+              "",
+              "\"<style>",
+              "    p {",
+              "        font-family: 'Segoe UI', serif;",
+              "        font-size: 30px;",
+              "        color: white;",
+              "        background-color: transparent;",
+              "        line-height: 115%;",
+              "    }",
+              "</style>",
+              "<p>",
+              "    Transforming <br>",
+              "    Education… <br>",
+              "    Creating Futures",
+              "</p>\"",
+              ""
+            ],
+            "lineageTag": "3f5aa4f1-66b1-4b11-a0e8-6886b435f0c1"
+          },
+          {
+            "name": "_1 Heading",
+            "expression": [
+              "",
+              "\"<style>",
+              "    p {",
+              "        font-family: 'Segoe UI', serif;",
+              "        font-size: 60px;",
+              "        color: white;",
+              "        background-color: transparent;",
+              "        line-height: 115%;",
+              "        font-weight: bold;",
+              "    }",
+              "</style>",
+              "<p>",
+              "    KPI Scorecard Dashboard",
+              "</p>\"",
+              ""
+            ],
+            "lineageTag": "00922753-aa5a-466c-9a51-d745f7eca08e"
+          },
+          {
+            "name": "_1 Page Titles",
+            "expression": [
+              "",
+              "\"<style>",
+              "    p {",
+              "        font-family: 'Segoe UI', serif;",
+              "        font-size: 30px;",
+              "        color: white;",
+              "        background-color: transparent;",
+              "        line-height: 115%;",
+              "    }",
+              "    .red-text {",
+              "        color: white;",
+              "        font-weight: bold;",
+              "    }",
+              "</style>",
+              "<p>",
+              "    <span class='red-text'>Pages</span> <br>",
+              "    🔗 Strategic KPIs<br>",
+              "    🔗 Operational KPIs",
+              "</p>\"",
+              ""
+            ],
+            "lineageTag": "3ab53b29-bdb7-4908-b52c-942e7f0639df"
+          },
+          {
+            "name": "Percentage Value",
+            "expression": [
+              "",
+              "SUM(KPIs[Value])"
+            ],
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "6efb08c4-2a04-4299-a729-57b02494ac97"
+          },
+          {
+            "name": "Percentage Target",
+            "expression": [
+              "",
+              "SUM(KPIs[Benchmark])"
+            ],
+            "formatString": "0%;-0%;0%",
+            "lineageTag": "803b7984-65c2-4ff0-9793-e9fabff12129"
+          },
+          {
+            "name": "Number Value",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "SUM(KPIs[Value])"
+            ],
+            "lineageTag": "68145570-4dd0-4558-b13a-f638f2cd5b94"
+          },
+          {
+            "name": "Number Target",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "SUM(KPIs[Benchmark])"
+            ],
+            "lineageTag": "0debc2f1-c7a4-40f9-a6e6-ae7d25408f49"
+          },
+          {
+            "name": "Money Target",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-GB\"}"
+              }
+            ],
+            "expression": [
+              "",
+              "SUM(KPIs[Benchmark])"
+            ],
+            "formatString": "\"£\"#,0.00;-\"£\"#,0.00;\"£\"#,0.00",
+            "lineageTag": "71d89da4-c19c-42ef-959e-3436f287751c"
+          },
+          {
+            "name": "Money Value",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-GB\"}"
+              }
+            ],
+            "expression": [
+              "",
+              "SUM(KPIs[Value])"
+            ],
+            "formatString": "\"£\"#,0.00;-\"£\"#,0.00;\"£\"#,0.00",
+            "lineageTag": "4f93ec1c-5752-4f73-b056-dcb513961f94"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "KPIs",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = SharePoint.Files(\"https://uolonline.sharepoint.com/sites/uliamiteam/\", [ApiVersion = 15]),",
+                "    #\"Sorted Rows\" = Table.Sort(Source,{{\"Date created\", Order.Descending}}),",
+                "    #\"Strategic and Operational KPIs Data back-end new version August 24 xlsx_https://uolonline sharepoint com/sites/uliamiteam/Documents NEW/New Structure/PowerBI Dashboards/Our Dashboards/KPI Reporting/\" = #\"Sorted Rows\"{[Name=\"Strategic and Operational KPIs Data back-end new version August 24.xlsx\",#\"Folder Path\"=\"https://uolonline.sharepoint.com/sites/uliamiteam/Documents NEW/New Structure/PowerBI Dashboards/Our Dashboards/KPI Reporting/\"]}[Content],",
+                "    #\"Imported Excel Workbook\" = Excel.Workbook(#\"Strategic and Operational KPIs Data back-end new version August 24 xlsx_https://uolonline sharepoint com/sites/uliamiteam/Documents NEW/New Structure/PowerBI Dashboards/Our Dashboards/KPI Reporting/\"),",
+                "    #\"Filtered Rows\" = Table.SelectRows(#\"Imported Excel Workbook\", each ([Kind] = \"Table\")),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Filtered Rows\",{\"Kind\", \"Hidden\", \"Item\"}),",
+                "    #\"Expanded Data\" = Table.ExpandTableColumn(#\"Removed Columns\", \"Data\", {\"ID\", \"KPI\", \"Category\", \"Owner\", \"Value\", \"Benchmark\", \"Value Format\", \"Difference against benchmark\", \"Difference Format\", \"RAG\", \"RAG Logic\", \"Last Update Date\", \"Reporting Period\", \"Notes\"}, {\"ID\", \"KPI\", \"Category\", \"Owner\", \"Value\", \"Benchmark\", \"Value Format\", \"Difference against benchmark\", \"Difference Format\", \"RAG\", \"RAG Logic\", \"Last Update Date\", \"Reporting Period\", \"Notes\"}),",
+                "    #\"Merged Queries\" = Table.NestedJoin(#\"Expanded Data\", {\"Name\"}, #\"Correct Name\", {\"Raw Name\"}, \"Correct Name\", JoinKind.LeftOuter),",
+                "    #\"Removed Columns2\" = Table.RemoveColumns(#\"Merged Queries\",{\"Name\"}),",
+                "    #\"Expanded Correct Name\" = Table.ExpandTableColumn(#\"Removed Columns2\", \"Correct Name\", {\"Name\"}, {\"Name\"}),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Expanded Correct Name\",{{\"Benchmark\", type number}, {\"Value\", type number}, {\"Difference against benchmark\", type number}, {\"Last Update Date\", type date}, {\"Reporting Period\", type text}}),",
+                "    #\"Added Custom\" = Table.AddColumn(#\"Changed Type\", \"Type of KPI\", each if Text.StartsWith([Name], \"O -\") then \"Operational\" else \"Strategic\", type text),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Added Custom\",{{\"ID\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type1\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "RAG Order",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "columns": [
+          {
+            "name": "RAG",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "35fd7519-af8c-4337-9b92-633ff53e85a1",
+            "sortByColumn": "Index",
+            "sourceColumn": "RAG",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Index",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cf8b251c-dea4-439f-968a-19bad22566d5",
+            "sourceColumn": "Index",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "1ea99cde-3cb0-4be8-92c3-6a597cd612bd",
+        "partitions": [
+          {
+            "name": "RAG Order",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WclfSUTJUitWJVnIEsozArCAgy1gpNhYA\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [RAG = _t, Index = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"RAG\", type text}, {\"Index\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
